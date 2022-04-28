@@ -1,0 +1,9 @@
+.wordCountWritingArea{
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
