@@ -10,6 +10,9 @@ export default function WordDetails(props){
             <div>
                 Character Count : {props.characterCount}
             </div>
+            <div>
+                Reading time : {props.readingTime}
+            </div>
         </div>
     )
 }

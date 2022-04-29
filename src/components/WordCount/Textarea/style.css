@@ -1,9 +1,16 @@
 .wordCountWritingArea{
     padding: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid black;
 }
 
 .container{
     display: flex;
     justify-content: space-around;
+}
+
+.font-size-container{
+    border: 1px solid black;
+    width: 20px;
+    height: 30px;
 }

@@ -8,7 +8,7 @@ export default function NavBar(){
         <>
         <div>
            <BrowserRouter>
-            <Layout></Layout>
+           <Layout></Layout>
            <Routes>
                <Route path ='/' element = {<Home />} />
                <Route path = '/about' element = {<About />} />
