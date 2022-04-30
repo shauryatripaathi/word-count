@@ -8,15 +8,9 @@ export default function Layout() {
         <div>
             <nav>
                 <ul className="navbarMenu">
-                    <li>
-                        <Link to='/' style={{ color: 'white' }}>Home</Link>
-                    </li>
-                    <li>
-                        <Link to='/about' style={{ color: 'white' }}>About Us</Link>
-                    </li>
-                    <li>
-                        <SearchBar />
-                    </li>
+                    <li><Link to='/' style={{ color: 'white' }}>Home</Link></li>
+                    <li><Link to='/about' style={{ color: 'white' }}>About Us</Link></li>
+                    <li><SearchBar /></li>
                 </ul>
             </nav>
             <Outlet />
