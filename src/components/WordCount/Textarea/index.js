@@ -31,7 +31,7 @@ export default function TextArea() {
                     onChange={handleChange}
                     rows='20' cols='120'
                     placeholder="Start typing..." />
-                <div>
+                <div className='button-container'>
                     <Button handleOnClick={() => { setMyText(myText.toUpperCase()) }} btn='UpperCase' />
                     <Button handleOnClick={() => { setMyText(myText.toLowerCase()) }} btn='LowerCase' />
                     <Button handleOnClick={() => { setMyText('') }} btn='Clear All' />
